@@ -5,14 +5,14 @@ var gutil = require("gulp-util");
 var browserSync = require('browser-sync');
 var webpackConfig = require('./webpack.config.js');
 var clean = require('gulp-clean');
-var uncss = require('gulp-uncss'); 
+var uncss = require('gulp-uncss');
+var dogen = require('gulp-dogen');
+var path = require('path');
 
-
-var dev_jsfiles = ['./dev/js/*.js'];
-var dev_cssfiles = ['./dev/css/*.css'];
-
-var dest_jsfiles = './dist/js';
-var dest_cssfiles = './dist/css';
+dogen.config({
+    templatesPath: 'templatesGulp',
+    gulp: gulp
+});
 
 gulp.task("clean-scripts", function() {
     return gulp.src('.dist/*.js', {read: false})
@@ -64,4 +64,5 @@ gulp.task('watch', ['clean-scripts', 'webpack', 'browser-sync'], function() {
     gulp.watch("./*.html", ['bs-reload']);
 });
 
+dogen.task('module', __dirname + '/dev/js/');
 gulp.task('default', ['watch']);

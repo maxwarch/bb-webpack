@@ -21,9 +21,6 @@ var plugins = function () {
   var production = [
     new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}}),
     new webpack.optimize.DedupePlugin(),
-    new webpack.DefinePlugin({
-      "process.env": { NODE_ENV: JSON.stringify("production") }
-    }),
     new webpack.NoErrorsPlugin()
   ];
 
@@ -38,8 +35,7 @@ var plugins = function () {
    context: __dirname,
    
    entry: {
-     main: ['./dev/js/main.js'],
-     //config:['./dev/js/config.js']
+     main: ['./dev/js/main.js']
    },
    output: {
      path: path.resolve(__dirname, PRODUCTION ? './dist/' : './dist/'),
