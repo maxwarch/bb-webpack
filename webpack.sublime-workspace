@@ -1,0 +1,798 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"FAS",
+				"FALSE"
+			],
+			[
+				"cate",
+				"categorie_id"
+			],
+			[
+				"id",
+				"idcat"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"data",
+				"dataCat"
+			],
+			[
+				"index",
+				"indexCat"
+			],
+			[
+				"nom_",
+				"nom_client"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"pro",
+				"projets"
+			],
+			[
+				"select",
+				"select-mois"
+			],
+			[
+				"parse",
+				"parsePlanning"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ra",
+				"rappel-save"
+			],
+			[
+				"show",
+				"showTableau"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"coll",
+				"collaborateur"
+			],
+			[
+				"co",
+				"collaborateurs"
+			],
+			[
+				"list",
+				"liste_clients"
+			],
+			[
+				"tool",
+				"tooltipster"
+			],
+			[
+				"prevent",
+				"preventDefault"
+			],
+			[
+				"nom",
+				"nom_projet"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"sle",
+				"selected"
+			],
+			[
+				"u",
+				"user"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"map",
+				"map_id"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"departement",
+				"departement_id"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"start",
+				"start_time"
+			],
+			[
+				"time",
+				"timespan"
+			],
+			[
+				"ti",
+				"timespan"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"projet",
+				"projet_id"
+			],
+			[
+				"depart",
+				"departement_id"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 2312,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/app.js",
+			"settings":
+			{
+				"buffer_size": 525,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/main.js",
+			"settings":
+			{
+				"buffer_size": 325,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/_superclass/BaseModule.js",
+			"settings":
+			{
+				"buffer_size": 557,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/intro/introCtrl.js",
+			"settings":
+			{
+				"buffer_size": 578,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/intro/intro.js",
+			"settings":
+			{
+				"buffer_size": 297,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/maximekuil/Documents/travail/_node/webpack/webpack.sublime-project",
+		"/Users/maximekuil/Documents/travail/_node/webpack/package.json",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/intro/introCtrl.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/nav/nav.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/intro/intro.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/_superclass/BaseController.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/_superclass/BaseModule.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/nav/views/navView.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/index.html",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/intro/introRte.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/nav/navRte.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dist/main.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/main.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/css/app.css",
+		"/Users/maximekuil/Documents/travail/_node/webpack/index.tpl.html",
+		"/Users/maximekuil/Documents/travail/_node/webpack/gulpfile.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/webpack.config.js",
+		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/AppComponent.js",
+		"/Volumes/chat kiabi prod/nodechat/server.js",
+		"/Volumes/chat kiabi prod/tchat/dist/app/config/Init.js",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/index.html",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/js/intro/controllers/introCtrl.js",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/js/intro/views/aboutView.js",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/js/intro/views/contactView.js",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/js/intro/views/introView.js",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/js/nav/templates/nav.html",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/js/main.js",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/edit.sublime-project",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/js/nav/controllers/navCtrl.js",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/dev/css/bootstrap/less/variables.less",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/.gitignore",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/README.md",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/.git/config",
+		"/Volumes/USB DISK/backbone-browserify/.git/config",
+		"/Volumes/USB DISK/backbone-browserify/.gitignore",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/.git/description",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/edit",
+		"/Users/maximekuil/Documents/travail/_node/backbone-browserify/gulpfile.js",
+		"/Volumes/Timinator/application/controllers/parametre.php",
+		"/Volumes/Timinator/application/views/parametre/index.php",
+		"/Volumes/Timinator/application/views/parametre/_liste_clients.php",
+		"/Volumes/Timinator/application/views/parametre/_un_projet.php",
+		"/Volumes/Timinator/application/views/rapports/_by_projets.php",
+		"/Volumes/Timinator/application/views/rapports/index.php",
+		"/Volumes/Timinator/application/views/dashboard/_worker_graph.php",
+		"/Volumes/Timinator/application/views/dashboard/view_for_work.php",
+		"/Volumes/Timinator/application/views/commun/footer_script.php",
+		"/Volumes/Timinator/application/views/dashboard/_worker_li_projets.php",
+		"/Volumes/Timinator/application/controllers/dashboard.php",
+		"/Volumes/Timinator/application/controllers/rapports.php",
+		"/T/application/views/rapports/index.php",
+		"/T/application/models/map.php",
+		"/T/application/views/dashboard/index.php",
+		"/T/application/views/dashboard/_worker_graph.php",
+		"/T/application/views/dashboard/_worker_list_projets.php",
+		"/T/application/controllers/parametre.php",
+		"/T/application/views/parametre/index.php",
+		"/T/application/views/parametre/_liste_clients.php",
+		"/T/application/views/parametre/_un_projet.php",
+		"/T/application/helpers/jeu_helper.php",
+		"/T/application/config/autoload.php",
+		"/T/application/controllers/accueil.php",
+		"/T/application/views/rapports/_by_projets.php",
+		"/T/application/controllers/dashboard.php",
+		"/T/application/controllers/connexion.php",
+		"/T/application/views/dashboard/_worker_li_projets.php",
+		"/T/application/views/dashboard/view_for_work.php",
+		"/T/application/config/config_jeu.php",
+		"/T/application/controllers/rapports.php",
+		"/T/application/models/categories.php",
+		"/T/htdocs/compass/sass/include_css/_dashboard.scss",
+		"/T/application/views/dashboard/_form_temps.php",
+		"/T/application/views/parametre/collaborateurs.php",
+		"/T/application/views/parametre/_form_collaborateur.php",
+		"/T/application/views/dashboard/_worker_li_projets_old.php",
+		"/T/application/views/parametre/_form_client.php",
+		"/T/htdocs/js/krealid/formulaire.js",
+		"/C/Users/Maxime/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Maxime/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/T/application/views/layouts/header.php",
+		"/T/htdocs/js/angular/app/app.js",
+		"/T/htdocs/js/angular/app/views/dashboard/index.html",
+		"/T/htdocs/js/angular/app/controllers.js",
+		"/T/htdocs/js/angular/app/filters.js",
+		"/T/htdocs/js/angular/app/directives.js",
+		"/T/htdocs/js/angular/app/services.js",
+		"/T/application/views/mobile/connexion/index.php",
+		"/T/application/views/mobile/dashboard/view_for_work.php",
+		"/T/application/controllers/api.php",
+		"/T/application/views/mobile/layouts/application.php",
+		"/T/application/views/mobile/layouts/meta.php",
+		"/T/htdocs/css/bootstrap/bootstrap.css",
+		"/T/application/libraries/MY_Form_validation.php",
+		"/T/system/libraries/Form_validation.php",
+		"/T/application/core/Public_Controller.php",
+		"/T/htdocs/angular/angular-phonecat/app/index.php",
+		"/C/Users/Maxime/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-completions.sublime-settings",
+		"/T/htdocs/angular/lib/angular/i18n/angular-locale_fr.js",
+		"/T/application/views/connexion/index.php",
+		"/T/application/views/mobile/layouts/header.php",
+		"/T/application/views/mobile/accueil/index.php",
+		"/T/application/views/layouts/application.php",
+		"/T/application/models/logconnect.php",
+		"/T/application/libraries/REST_Controller.php",
+		"/E/application/controllers/accueil.php",
+		"/T/application/views/layouts/mobile/header.php",
+		"/T/application/views/layouts/mobile/meta.php",
+		"/T/application/views/layouts/mobile/application.php",
+		"/T/application/views/layouts/mobile/footer.php",
+		"/T/application/controllers/planning.php",
+		"/T/application/views/planning/tableau.php",
+		"/T/application/views/planning/index.php",
+		"/T/htdocs/angular/angular-phonecat/app/index_time.php",
+		"/T/htdocs/angular/angular-phonecat/app/js/controllers.js",
+		"/Y/htdocs/config_defaults_inc.php",
+		"/Y/htdocs/manage_user_reset.php",
+		"/Y/htdocs/library/phpmailer/class.smtp.php",
+		"/Y/htdocs/library/phpmailer/class.phpmailer.php",
+		"/T/application/views/planning/index_save.php",
+		"/T/htdocs/angular/angular-phonecat/app/index.html",
+		"/T/htdocs/angular/index.html",
+		"/C/Users/Maxime/Documents/Flash/projet/timinator/angular/index.html",
+		"/T/htdocs/compass/sass/include_css/_planning.scss",
+		"/T/application/views/planning/_worker_planning.php",
+		"/T/application/views/parametre/_view_collaborateur_to_projet.php",
+		"/T/application/models/plannings.php",
+		"/T/application/views/parametre/_form_projet.php",
+		"/T/application/views/planning/_view_collaborateur.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"theme",
+			"563832834067-futhjo3ttgd450cuqhbjovl1vs4u5j11.apps.googleusercontent.com",
+			"console",
+			"549728868461282",
+			" \n",
+			"voir-projet-inactif",
+			"../fonts",
+			"_field_data",
+			"do_debug",
+			"onlyOne",
+			"popup-form-projet",
+			"hideTooltip",
+			"close",
+			"explode",
+			"date",
+			"chart",
+			"dataGraph",
+			"client_id",
+			"p",
+			"&nbsp;",
+			"Date",
+			"client_id",
+			"'.USERS.'.nom', ",
+			"group",
+			");\n",
+			"temps",
+			"$client",
+			"liste-deleted",
+			"see",
+			"nom_client",
+			"<br>",
+			">",
+			"login",
+			"fwk",
+			"DISNEY"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/fonts/bootstrap",
+			"pie",
+			"dataPie",
+			"map",
+			"$departement",
+			"timinator"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 1694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "webpack.config.js",
+					"settings":
+					{
+						"buffer_size": 2312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								267,
+								267
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dev/js/app.js",
+					"settings":
+					{
+						"buffer_size": 525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/js/main.js",
+					"settings":
+					{
+						"buffer_size": 325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/js/_superclass/BaseModule.js",
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/js/intro/introCtrl.js",
+					"settings":
+					{
+						"buffer_size": 578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/js/intro/intro.js",
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true
+}
