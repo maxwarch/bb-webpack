@@ -65,4 +65,5 @@ gulp.task('watch', ['clean-scripts', 'webpack', 'browser-sync'], function() {
 });
 
 dogen.task('module', __dirname + '/dev/js/');
+// gulp dogen --module guitars
 gulp.task('default', ['watch']);
