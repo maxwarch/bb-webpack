@@ -1,0 +1,29 @@
+{
+  "name": "backbone-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dev/js/main.js",
+  "devDependencies": {
+    "browser-sync": "^2.0.1",
+    "bundle-loader": "^0.5.3",
+    "css-loader": "^0.9.1",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "file-loader": "^0.8.1",
+    "gulp": "^3.8.11",
+    "gulp-clean": "^0.3.1",
+    "gulp-uncss": "^1.0.0",
+    "gulp-util": "^3.0.3",
+    "gulp-webpack": "^1.2.0",
+    "html-loader": "^0.2.3",
+    "less-loader": "^2.0.0",
+    "main-bower-files": "^2.5.0",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.5.3"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --hot --progress --colors"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "krealid",
+  "version": "0.0.1",
+  "authors": [
+    "Krealid <mkuil@krealid.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "hello": "https://github.com/MrSwitch/hello.js.git#~1.4.3"
+  },
+  "homepage": "https://github.com/RileyTomasek/backbone-browserify",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

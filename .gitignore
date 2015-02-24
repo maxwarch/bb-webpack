@@ -1,0 +1,8 @@
+node_modules/
+dist/
+bower_components/
+restserver/
+webpack.sublime-project
+webpack.sublime-workspace
+npm-debug.log
+.DS_Store
