@@ -15,7 +15,7 @@ dogen.config({
 });
 
 gulp.task("clean-scripts", function() {
-    return gulp.src('.dist/*.js', {read: false})
+    return gulp.src(['./dist/*.js', './dist/*.js.map'], {read: false})
         .pipe(clean());
 });
 
@@ -60,7 +60,7 @@ gulp.task('bs-reload', function () {
 ///////////
 gulp.task('watch', ['clean-scripts', 'webpack', 'browser-sync'], function() {
     gulp.watch(['./dev/js/**/*.js', './dev/js/**/*.html'], ['clean-scripts', 'webpack', browserSync.reload]);
-    gulp.watch('./dev/css/bootstrap/less/**/*.less', ['webpack', browserSync.reload]);
+    gulp.watch(['./dev/css/bootstrap/less/**/*.less', './dev/css/*.css'], ['webpack', browserSync.reload]);
     gulp.watch("./*.html", ['bs-reload']);
 });
 

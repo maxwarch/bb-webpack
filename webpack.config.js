@@ -10,8 +10,12 @@ var PRODUCTION = false;//'production';
 var plugins = function () {
   var all = [
     new webpack.DefinePlugin({
-      THEME:JSON.stringify("../templates/" + appConfig.theme + "/"),
-      BOWER:JSON.stringify(__dirname + '/bower_components/')
+      THEME       :JSON.stringify("../templates/" + appConfig.theme + "/"),
+      CLASSVIEW   :JSON.stringify("starter-template"),
+      BOWER       :JSON.stringify(__dirname + '/bower_components/'),
+      CSS         :JSON.stringify(__dirname + '/dev/css/'),
+      MODEL       :JSON.stringify(__dirname + '/dev/js/models/'),
+      COLLECTION  :JSON.stringify(__dirname + '/dev/js/collections/')
     }),
     new webpack.optimize.CommonsChunkPlugin('main', null, false),
     new ExtractTextPlugin("[name].css", {allChunks: true}),

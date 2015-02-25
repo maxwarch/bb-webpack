@@ -2,6 +2,6 @@
 
 module.exports = Marionette.AppRouter.extend({
     appRoutes: {
-        '': 'intro'
+        '': '_module_'
     }
 });

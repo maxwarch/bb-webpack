@@ -8,7 +8,7 @@ var $ 			= require('jquery'),
 	Backbone 	= require('backbone'),
 	Marionette 	= require('backbone.marionette');
 
-window.BaseModule = require('./_superclass/BaseModule');
+window.BaseModule 	= require('./_superclass/BaseModule');
 
 // Create the application instance
 
