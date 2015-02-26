@@ -15,16 +15,18 @@ var plugins = function () {
       BOWER       :JSON.stringify(__dirname + '/bower_components/'),
       CSS         :JSON.stringify(__dirname + '/dev/css/'),
       MODEL       :JSON.stringify(__dirname + '/dev/js/models/'),
-      COLLECTION  :JSON.stringify(__dirname + '/dev/js/collections/')
+      COLLECTION  :JSON.stringify(__dirname + '/dev/js/collections/'),
+      SUPERCLASS  :JSON.stringify(__dirname + '/dev/js/_superclass/'),
+      LIB         :JSON.stringify(__dirname + '/lib/')
     }),
     new webpack.optimize.CommonsChunkPlugin('main', null, false),
-    new ExtractTextPlugin("[name].css", {allChunks: true}),
+    new ExtractTextPlugin("[name].css", {allChunks: false}),
+    new webpack.optimize.DedupePlugin()
     //new CommonsChunkPlugin("config.js", ["app"]),
   ];
 
   var production = [
     new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}}),
-    new webpack.optimize.DedupePlugin(),
     new webpack.NoErrorsPlugin()
   ];
 
@@ -42,7 +44,7 @@ var plugins = function () {
      main: ['./dev/js/main.js']
    },
    output: {
-     path: path.resolve(__dirname, PRODUCTION ? './dist/' : './dist/'),
+     path: path.resolve(__dirname, './dist/'),
      publicPath: '/dist/',
      filename: '[name].js'
    },
@@ -50,7 +52,8 @@ var plugins = function () {
    		'jquery':'$',
    		'lodash':'_',
    		'backbone':'Backbone',
-   		'backbone.marionette':'Marionette'
+   		'backbone.marionette':'Marionette',
+      'jquery.cookie':'$.cookie'
    },
    resolve: {
      alias: {}

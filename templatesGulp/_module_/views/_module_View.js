@@ -5,6 +5,7 @@ module.exports = Marionette.ItemView.extend({
 	},
 
 	className:'' + CLASSVIEW + '',
+	model:null,
 
 	events:{
 		
@@ -14,5 +15,9 @@ module.exports = Marionette.ItemView.extend({
 		
 	},
 
-    template: _.template(require('../templates/_module_.html'))
+    template: _.template(require('../templates/_module_.html')),
+
+    onRender:function(){
+
+    }
 });

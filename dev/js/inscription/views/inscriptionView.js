@@ -1,6 +1,5 @@
 'use strict';
 
-var Me 	= new (require(MODEL + 'me'));
 require(CSS + 'inscription.css');
 
 module.exports = Marionette.ItemView.extend({
@@ -24,11 +23,18 @@ module.exports = Marionette.ItemView.extend({
 
     clickValid:function(e){
     	e.preventDefault();
-    	this.model.getFormData($('#form-inscription'))
-    		.save(this.model.attributes, {
-	    		success:function(model, response){
-	    			console.log(model, response)
-	    		}
-	    	})
+
+    	this.model.saveValidate(this.ui.form, {
+												special_fields:['email'],
+												before:function(form){
+													$('#valid').attr('disabled', true)
+												},
+												onError:function(data, form){
+													$('#valid').attr('disabled', false)
+												}
+											}, function(model, form){
+												$.cookie(config.prefix + 'me', model.jsonString())
+												app.module('inscription').navigate('jeu');
+											});
     }
 });

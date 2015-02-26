@@ -6,9 +6,11 @@ require('../css/app.css');
 var $ 			= require('jquery'),
 	_ 			= require('lodash'),
 	Backbone 	= require('backbone'),
-	Marionette 	= require('backbone.marionette');
+	Marionette 	= require('backbone.marionette'),
+	cookie 		= require('jquery.cookie');
 
 window.BaseModule 	= require('./_superclass/BaseModule');
+window.Me 			= require(MODEL + 'me').getInstance();
 
 // Create the application instance
 

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"a	<a>"
+			],
+			[
 				"margin",
 				"margin-left"
 			],
@@ -168,18 +172,10 @@
 	"buffers":
 	[
 		{
-			"file": "gulpfile.js",
+			"file": "dev/js/main.js",
 			"settings":
 			{
-				"buffer_size": 1694,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webpack.config.js",
-			"settings":
-			{
-				"buffer_size": 2312,
+				"buffer_size": 300,
 				"line_ending": "Windows"
 			}
 		},
@@ -187,55 +183,56 @@
 			"file": "dev/js/app.js",
 			"settings":
 			{
-				"buffer_size": 525,
+				"buffer_size": 526,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/js/main.js",
+			"file": "dev/js/inscription/templates/inscription.html",
 			"settings":
 			{
-				"buffer_size": 325,
+				"buffer_size": 888,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/js/_superclass/BaseModule.js",
-			"settings":
-			{
-				"buffer_size": 557,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/js/intro/introCtrl.js",
+			"file": "dev/js/models/me.js",
 			"settings":
 			{
 				"buffer_size": 578,
+				"line_ending": "Windows",
+				"name": "me.js"
+			}
+		},
+		{
+			"file": "dev/js/inscription/views/inscriptionView.js",
+			"settings":
+			{
+				"buffer_size": 663,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/js/intro/intro.js",
+			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 297,
+				"buffer_size": 2437,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "lib/formulaire.js",
 			"settings":
 			{
-				"buffer_size": 734,
+				"buffer_size": 2902,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
 			"settings":
 			{
-				"buffer_size": 123,
+				"buffer_size": 4537,
 				"line_ending": "Windows"
 			}
 		}
@@ -284,6 +281,33 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/system/libraries/Form_validation.php",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/libraries/REST_Controller.php",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/libraries/MY_Form_validation.php",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/htdocs/.htaccess",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/htdocs/index.php",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/inscription.php",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/css/inscription.css",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/gulpfile.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/accueil/views/accueilView.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/accueil/templates/accueil.html",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/css/app.css",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/views/_module_View.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/webpack.config.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/templates/_module_.html",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/inscription/inscriptionRte.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/main.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/app.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/views/introView.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_Rte.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_Ctrl.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/intro/intro.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/intro/introCtrl.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/_superclass/BaseModule.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/package.json",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/.gitignore",
+		"/C/Users/Maxime/Links/bb-webpack.lnk",
 		"/Users/maximekuil/Documents/travail/_node/webpack/webpack.sublime-project",
 		"/Users/maximekuil/Documents/travail/_node/webpack/package.json",
 		"/Users/maximekuil/Documents/travail/_node/webpack/dev/js/intro/introCtrl.js",
@@ -384,34 +408,7 @@
 		"/T/htdocs/angular/lib/angular/i18n/angular-locale_fr.js",
 		"/T/application/views/connexion/index.php",
 		"/T/application/views/mobile/layouts/header.php",
-		"/T/application/views/mobile/accueil/index.php",
-		"/T/application/views/layouts/application.php",
-		"/T/application/models/logconnect.php",
-		"/T/application/libraries/REST_Controller.php",
-		"/E/application/controllers/accueil.php",
-		"/T/application/views/layouts/mobile/header.php",
-		"/T/application/views/layouts/mobile/meta.php",
-		"/T/application/views/layouts/mobile/application.php",
-		"/T/application/views/layouts/mobile/footer.php",
-		"/T/application/controllers/planning.php",
-		"/T/application/views/planning/tableau.php",
-		"/T/application/views/planning/index.php",
-		"/T/htdocs/angular/angular-phonecat/app/index_time.php",
-		"/T/htdocs/angular/angular-phonecat/app/js/controllers.js",
-		"/Y/htdocs/config_defaults_inc.php",
-		"/Y/htdocs/manage_user_reset.php",
-		"/Y/htdocs/library/phpmailer/class.smtp.php",
-		"/Y/htdocs/library/phpmailer/class.phpmailer.php",
-		"/T/application/views/planning/index_save.php",
-		"/T/htdocs/angular/angular-phonecat/app/index.html",
-		"/T/htdocs/angular/index.html",
-		"/C/Users/Maxime/Documents/Flash/projet/timinator/angular/index.html",
-		"/T/htdocs/compass/sass/include_css/_planning.scss",
-		"/T/application/views/planning/_worker_planning.php",
-		"/T/application/views/parametre/_view_collaborateur_to_projet.php",
-		"/T/application/models/plannings.php",
-		"/T/application/views/parametre/_form_projet.php",
-		"/T/application/views/planning/_view_collaborateur.php"
+		"/T/application/views/mobile/accueil/index.php"
 	],
 	"find":
 	{
@@ -429,6 +426,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$_SERVER",
 			"theme",
 			"563832834067-futhjo3ttgd450cuqhbjovl1vs4u5j11.apps.googleusercontent.com",
 			"console",
@@ -492,53 +490,50 @@
 			[
 				{
 					"buffer": 0,
-					"file": "gulpfile.js",
+					"file": "dev/js/main.js",
 					"settings":
 					{
-						"buffer_size": 1694,
+						"buffer_size": 300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								304
+								103,
+								103
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 18.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "webpack.config.js",
+					"file": "dev/js/app.js",
 					"settings":
 					{
-						"buffer_size": 2312,
+						"buffer_size": 526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								267,
-								267
+								290,
+								290
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -548,23 +543,23 @@
 				},
 				{
 					"buffer": 2,
-					"file": "dev/js/app.js",
+					"file": "dev/js/inscription/templates/inscription.html",
 					"settings":
 					{
-						"buffer_size": 525,
+						"buffer_size": 888,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								79,
+								95
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -574,61 +569,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "dev/js/main.js",
-					"settings":
-					{
-						"buffer_size": 325,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "dev/js/_superclass/BaseModule.js",
-					"settings":
-					{
-						"buffer_size": 557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "dev/js/intro/introCtrl.js",
+					"file": "dev/js/models/me.js",
 					"settings":
 					{
 						"buffer_size": 578,
@@ -638,15 +579,15 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								161,
+								161
 							]
 						],
 						"settings":
 						{
+							"auto_name": "me.js",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -655,11 +596,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "dev/js/intro/intro.js",
+					"buffer": 4,
+					"file": "dev/js/inscription/views/inscriptionView.js",
 					"settings":
 					{
-						"buffer_size": 297,
+						"buffer_size": 663,
 						"regions":
 						{
 						},
@@ -672,7 +613,64 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "webpack.config.js",
+					"settings":
+					{
+						"buffer_size": 2437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								727,
+								727
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "lib/formulaire.js",
+					"settings":
+					{
+						"buffer_size": 2902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -682,54 +680,26 @@
 				},
 				{
 					"buffer": 7,
-					"file": "package.json",
+					"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
 					"settings":
 					{
-						"buffer_size": 734,
+						"buffer_size": 4537,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								232,
-								232
+								1533,
+								1533
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": ".gitignore",
-					"settings":
-					{
-						"buffer_size": 123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

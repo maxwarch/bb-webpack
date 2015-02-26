@@ -5,19 +5,19 @@
 			<div class="form-group">
 				<label>Nom</label>
 				<input type="text" class="form-control" name="nom" placeholder="Votre nom" value="<%= nom %>">
-				<small class="error hide nom"></small>
+				<small class="error hide nom">Veuillez renseigner votre nom</small>
 			</div>
 			<div class="form-group">
 				<label>Prénom</label>
 				<input type="text" class="form-control" name="prenom" placeholder="Votre prénom" value="<%= prenom %>">
-				<small class="error hide prenom"></small>
+				<small class="error hide prenom">Veuillez renseigner votre prénom</small>
 			</div>
 			<div class="form-group">
 				<label>Email</label>
 				<input type="email" class="form-control" name="email" placeholder="Votre email" value="<%= email %>">
 				<small class="error hide email"></small>
 			</div>
-			<button id="valid" class="btn btn-default">OK</button>
+			<input id="valid" type="submit" class="btn btn-default" value="OK" />
 		</form>
   	</div>
   	<div class="col-md-6">
