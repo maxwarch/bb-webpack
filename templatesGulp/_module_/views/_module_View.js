@@ -5,6 +5,8 @@ module.exports = Marionette.ItemView.extend({
 	},
 
 	className:'' + CLASSVIEW + '',
+	tagName:'div id="_module_"',
+
 	model:null,
 
 	events:{

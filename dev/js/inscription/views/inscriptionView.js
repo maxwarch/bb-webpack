@@ -33,8 +33,8 @@ module.exports = Marionette.ItemView.extend({
 													$('#valid').attr('disabled', false)
 												}
 											}, function(model, form){
-												$.cookie(config.prefix + 'me', model.jsonString())
-												app.module('inscription').navigate('jeu');
+												model.setCookie('me', model.jsonString());
+												app.module('inscription').navigate('go-jeu');
 											});
     }
 });

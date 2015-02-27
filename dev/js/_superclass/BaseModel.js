@@ -100,5 +100,9 @@ module.exports = Backbone.Model.extend({
 	    });
 
 	    return this;
+	},
+
+	setCookie:function(name, data){
+		$.cookie(config.prefix + name, data);
 	}
 });

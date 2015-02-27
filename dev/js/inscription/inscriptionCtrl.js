@@ -5,8 +5,6 @@ module.exports = Marionette.Controller.extend({
         
     },
     inscription: function(id) {
-        require.ensure([], function(){
-            app.contentRegion.show(new (require('./views/inscriptionView')))
-        });
+        app.contentRegion.show(new (require('./views/inscriptionView')))
     }
 });

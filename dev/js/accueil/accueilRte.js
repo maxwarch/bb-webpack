@@ -2,6 +2,10 @@
 
 module.exports = Marionette.AppRouter.extend({
     appRoutes: {
-        '': 'accueil'
+        '': 'accueil',
+        'go-inscription':'goInscription',
+        'inscription':'goInscription',
+        'go-jeu':'goJeu',
+        'jeu':'goJeu'
     }
 });

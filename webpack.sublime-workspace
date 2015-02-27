@@ -172,10 +172,18 @@
 	"buffers":
 	[
 		{
+			"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
+			"settings":
+			{
+				"buffer_size": 4619,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "dev/js/main.js",
 			"settings":
 			{
-				"buffer_size": 300,
+				"buffer_size": 341,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,15 +191,7 @@
 			"file": "dev/js/app.js",
 			"settings":
 			{
-				"buffer_size": 526,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/js/inscription/templates/inscription.html",
-			"settings":
-			{
-				"buffer_size": 888,
+				"buffer_size": 616,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,7 +199,7 @@
 			"file": "dev/js/models/me.js",
 			"settings":
 			{
-				"buffer_size": 578,
+				"buffer_size": 363,
 				"line_ending": "Windows",
 				"name": "me.js"
 			}
@@ -208,7 +208,15 @@
 			"file": "dev/js/inscription/views/inscriptionView.js",
 			"settings":
 			{
-				"buffer_size": 663,
+				"buffer_size": 895,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/jeu/views/jeuView.js",
+			"settings":
+			{
+				"buffer_size": 392,
 				"line_ending": "Windows"
 			}
 		},
@@ -216,23 +224,31 @@
 			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 2437,
+				"buffer_size": 2573,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lib/formulaire.js",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2902,
-				"line_ending": "Unix"
+				"buffer_size": 1489,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
+			"file": "dev/js/config.js",
 			"settings":
 			{
-				"buffer_size": 4537,
+				"buffer_size": 90,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/_superclass/BaseModel.js",
+			"settings":
+			{
+				"buffer_size": 3029,
 				"line_ending": "Windows"
 			}
 		}
@@ -281,6 +297,19 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/index.html",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/_superclass/BaseModule.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dist/main.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/_superclass/Singleton.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/_superclass/BaseModel.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/jeu/jeuRte.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/jeu/jeu.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/views/_module_View.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_Rte.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/inscription/templates/inscription.html",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/webpack.config.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/lib/jq.plugin.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/lib/formulaire.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/system/libraries/Form_validation.php",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/libraries/REST_Controller.php",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/libraries/MY_Form_validation.php",
@@ -292,19 +321,15 @@
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/accueil/views/accueilView.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/accueil/templates/accueil.html",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/css/app.css",
-		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/views/_module_View.js",
-		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/webpack.config.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/templates/_module_.html",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/inscription/inscriptionRte.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/main.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/app.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/views/introView.js",
-		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_Rte.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_Ctrl.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/intro/intro.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/intro/introCtrl.js",
-		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/_superclass/BaseModule.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/package.json",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/.gitignore",
 		"/C/Users/Maxime/Links/bb-webpack.lnk",
@@ -399,16 +424,7 @@
 		"/T/application/controllers/api.php",
 		"/T/application/views/mobile/layouts/application.php",
 		"/T/application/views/mobile/layouts/meta.php",
-		"/T/htdocs/css/bootstrap/bootstrap.css",
-		"/T/application/libraries/MY_Form_validation.php",
-		"/T/system/libraries/Form_validation.php",
-		"/T/application/core/Public_Controller.php",
-		"/T/htdocs/angular/angular-phonecat/app/index.php",
-		"/C/Users/Maxime/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-completions.sublime-settings",
-		"/T/htdocs/angular/lib/angular/i18n/angular-locale_fr.js",
-		"/T/application/views/connexion/index.php",
-		"/T/application/views/mobile/layouts/header.php",
-		"/T/application/views/mobile/accueil/index.php"
+		"/T/htdocs/css/bootstrap/bootstrap.css"
 	],
 	"find":
 	{
@@ -426,6 +442,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mkuil@krealid.com",
+			"form-horizontal",
 			"$_SERVER",
 			"theme",
 			"563832834067-futhjo3ttgd450cuqhbjovl1vs4u5j11.apps.googleusercontent.com",
@@ -485,23 +503,50 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dev/js/main.js",
+					"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
 					"settings":
 					{
-						"buffer_size": 300,
+						"buffer_size": 4619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								103,
-								103
+								2171,
+								2171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1035.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dev/js/main.js",
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
 							]
 						],
 						"settings":
@@ -515,19 +560,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "dev/js/app.js",
 					"settings":
 					{
-						"buffer_size": 526,
+						"buffer_size": 616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								290,
-								290
+								616,
+								616
 							]
 						],
 						"settings":
@@ -542,51 +587,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "dev/js/inscription/templates/inscription.html",
-					"settings":
-					{
-						"buffer_size": 888,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								95
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 3,
 					"file": "dev/js/models/me.js",
 					"settings":
 					{
-						"buffer_size": 578,
+						"buffer_size": 363,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								173,
+								173
 							]
 						],
 						"settings":
 						{
 							"auto_name": "me.js",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
@@ -600,20 +620,21 @@
 					"file": "dev/js/inscription/views/inscriptionView.js",
 					"settings":
 					{
-						"buffer_size": 663,
+						"buffer_size": 895,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								52,
-								52
+								812,
+								812
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
@@ -624,25 +645,24 @@
 				},
 				{
 					"buffer": 5,
-					"file": "webpack.config.js",
+					"file": "dev/js/jeu/views/jeuView.js",
 					"settings":
 					{
-						"buffer_size": 2437,
+						"buffer_size": 392,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								727,
-								727
+								392,
+								392
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
+							"translate_tabs_to_spaces": false,
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
@@ -653,24 +673,54 @@
 				},
 				{
 					"buffer": 6,
-					"file": "lib/formulaire.js",
+					"file": "webpack.config.js",
 					"settings":
 					{
-						"buffer_size": 2902,
+						"buffer_size": 2573,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1806,
+								1806
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1289,
+								1289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -679,27 +729,56 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
+					"buffer": 8,
+					"file": "dev/js/config.js",
 					"settings":
 					{
-						"buffer_size": 4537,
+						"buffer_size": 90,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1533,
-								1533
+								86,
+								86
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 630.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "dev/js/_superclass/BaseModel.js",
+					"settings":
+					{
+						"buffer_size": 3029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

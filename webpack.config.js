@@ -1,8 +1,7 @@
- var webpack = require('webpack');
- var ExtractTextPlugin = require("extract-text-webpack-plugin");
- var CommonsChunkPlugin = require("./node_modules/webpack/lib/optimize/CommonsChunkPlugin");
- var path = require('path');
- var appConfig = require('./dev/js/config'); 
+var webpack = require('webpack');
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var CommonsChunkPlugin = require("./node_modules/webpack/lib/optimize/CommonsChunkPlugin");
+var path = require('path');
 
 var PRODUCTION = false;//'production';
 
@@ -10,10 +9,13 @@ var PRODUCTION = false;//'production';
 var plugins = function () {
   var all = [
     new webpack.DefinePlugin({
-      THEME       :JSON.stringify("../templates/" + appConfig.theme + "/"),
-      CLASSVIEW   :JSON.stringify("starter-template"),
+      PROD        :PRODUCTION,
+      JEU         :JSON.stringify('jeu1'),
+      THEME       :JSON.stringify('../templates/theme2/'),
+      CLASSVIEW   :JSON.stringify('starter-template'),
       BOWER       :JSON.stringify(__dirname + '/bower_components/'),
       CSS         :JSON.stringify(__dirname + '/dev/css/'),
+      JS          :JSON.stringify(__dirname + '/dev/js/'),
       MODEL       :JSON.stringify(__dirname + '/dev/js/models/'),
       COLLECTION  :JSON.stringify(__dirname + '/dev/js/collections/'),
       SUPERCLASS  :JSON.stringify(__dirname + '/dev/js/_superclass/'),

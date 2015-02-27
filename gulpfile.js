@@ -44,7 +44,7 @@ gulp.task('browser-sync', function() {
             baseDir: "./"
         },
         open: "external",
-        browser: ["google chrome", "firefox"]
+        browser: ["google chrome"] //, "firefox"]
     });
 });
 
