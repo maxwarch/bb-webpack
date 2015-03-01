@@ -175,15 +175,15 @@
 			"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
 			"settings":
 			{
-				"buffer_size": 4619,
-				"line_ending": "Windows"
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "dev/js/main.js",
 			"settings":
 			{
-				"buffer_size": 341,
+				"buffer_size": 345,
 				"line_ending": "Windows"
 			}
 		},
@@ -199,8 +199,8 @@
 			"file": "dev/js/models/me.js",
 			"settings":
 			{
-				"buffer_size": 363,
-				"line_ending": "Windows",
+				"buffer_size": 485,
+				"line_ending": "Unix",
 				"name": "me.js"
 			}
 		},
@@ -208,7 +208,15 @@
 			"file": "dev/js/inscription/views/inscriptionView.js",
 			"settings":
 			{
-				"buffer_size": 895,
+				"buffer_size": 890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jpkuil/Sites/restserver/application/config/database.php",
+			"settings":
+			{
+				"buffer_size": 3774,
 				"line_ending": "Windows"
 			}
 		},
@@ -224,7 +232,7 @@
 			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 2573,
+				"buffer_size": 2639,
 				"line_ending": "Windows"
 			}
 		},
@@ -240,7 +248,7 @@
 			"file": "dev/js/config.js",
 			"settings":
 			{
-				"buffer_size": 90,
+				"buffer_size": 73,
 				"line_ending": "Windows"
 			}
 		},
@@ -248,7 +256,15 @@
 			"file": "dev/js/_superclass/BaseModel.js",
 			"settings":
 			{
-				"buffer_size": 3029,
+				"buffer_size": 3107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jpkuil/Sites/restserver/application/controllers/api.php",
+			"settings":
+			{
+				"buffer_size": 4581,
 				"line_ending": "Windows"
 			}
 		}
@@ -297,6 +313,12 @@
 	},
 	"file_history":
 	[
+		"/Users/jpkuil/Sites/restserver/application/models/users.php",
+		"/Users/jpkuil/Sites/restserver/application/core/MY_Model.php",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/hosts",
+		"/Users/jpkuil/Sites/restserver/htdocs/.htaccess",
+		"/Users/jpkuil/Sites/restserver/application/config/config.php",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/index.html",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/_superclass/BaseModule.js",
 		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dist/main.js",
@@ -418,13 +440,7 @@
 		"/T/htdocs/js/angular/app/controllers.js",
 		"/T/htdocs/js/angular/app/filters.js",
 		"/T/htdocs/js/angular/app/directives.js",
-		"/T/htdocs/js/angular/app/services.js",
-		"/T/application/views/mobile/connexion/index.php",
-		"/T/application/views/mobile/dashboard/view_for_work.php",
-		"/T/application/controllers/api.php",
-		"/T/application/views/mobile/layouts/application.php",
-		"/T/application/views/mobile/layouts/meta.php",
-		"/T/htdocs/css/bootstrap/bootstrap.css"
+		"/T/htdocs/js/angular/app/services.js"
 	],
 	"find":
 	{
@@ -439,9 +455,11 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"mod_headers",
+			"OPTION",
 			"mkuil@krealid.com",
 			"form-horizontal",
 			"$_SERVER",
@@ -503,7 +521,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 11,
 			"sheets":
 			[
 				{
@@ -511,15 +529,15 @@
 					"file": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/application/controllers/api.php",
 					"settings":
 					{
-						"buffer_size": 4619,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2171,
-								2171
+								0,
+								0
 							]
 						],
 						"settings":
@@ -538,15 +556,15 @@
 					"file": "dev/js/main.js",
 					"settings":
 					{
-						"buffer_size": 341,
+						"buffer_size": 345,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								341,
-								341
+								0,
+								0
 							]
 						],
 						"settings":
@@ -591,15 +609,15 @@
 					"file": "dev/js/models/me.js",
 					"settings":
 					{
-						"buffer_size": 363,
+						"buffer_size": 485,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								173,
-								173
+								0,
+								0
 							]
 						],
 						"settings":
@@ -620,15 +638,15 @@
 					"file": "dev/js/inscription/views/inscriptionView.js",
 					"settings":
 					{
-						"buffer_size": 895,
+						"buffer_size": 890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								812,
-								812
+								0,
+								0
 							]
 						],
 						"settings":
@@ -645,6 +663,32 @@
 				},
 				{
 					"buffer": 5,
+					"file": "/Users/jpkuil/Sites/restserver/application/config/database.php",
+					"settings":
+					{
+						"buffer_size": 3774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2620,
+								2620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 504.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "dev/js/jeu/views/jeuView.js",
 					"settings":
 					{
@@ -672,19 +716,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "webpack.config.js",
 					"settings":
 					{
-						"buffer_size": 2573,
+						"buffer_size": 2639,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1806,
-								1806
+								0,
+								0
 							]
 						],
 						"settings":
@@ -695,13 +739,13 @@
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "index.html",
 					"settings":
 					{
@@ -729,19 +773,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "dev/js/config.js",
 					"settings":
 					{
-						"buffer_size": 90,
+						"buffer_size": 73,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								86,
-								86
+								0,
+								0
 							]
 						],
 						"settings":
@@ -756,19 +800,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "dev/js/_superclass/BaseModel.js",
 					"settings":
 					{
-						"buffer_size": 3029,
+						"buffer_size": 3107,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								152,
-								152
+								0,
+								0
 							]
 						],
 						"settings":
@@ -779,6 +823,33 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/jpkuil/Sites/restserver/application/controllers/api.php",
+					"settings":
+					{
+						"buffer_size": 4581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4575,
+								4575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 1766.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

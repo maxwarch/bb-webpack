@@ -3,7 +3,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var CommonsChunkPlugin = require("./node_modules/webpack/lib/optimize/CommonsChunkPlugin");
 var path = require('path');
 
-var PRODUCTION = false;//'production';
+var PRODUCTION = false;
 
 
 var plugins = function () {
@@ -22,12 +22,13 @@ var plugins = function () {
       LIB         :JSON.stringify(__dirname + '/lib/')
     }),
     new webpack.optimize.CommonsChunkPlugin('main', null, false),
-    new ExtractTextPlugin("[name].css", {allChunks: false}),
-    new webpack.optimize.DedupePlugin()
+    new ExtractTextPlugin("[name].css", {allChunks: false})
+    
     //new CommonsChunkPlugin("config.js", ["app"]),
   ];
 
   var production = [
+    new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}}),
     new webpack.NoErrorsPlugin()
   ];

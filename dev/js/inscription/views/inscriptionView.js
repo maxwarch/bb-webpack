@@ -34,7 +34,7 @@ module.exports = Marionette.ItemView.extend({
 												}
 											}, function(model, form){
 												model.setCookie('me', model.jsonString());
-												app.module('inscription').navigate('go-jeu');
+												app.module('accueil').navigate('jeu');
 											});
     }
 });

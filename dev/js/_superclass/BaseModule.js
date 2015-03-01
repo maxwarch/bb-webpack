@@ -7,20 +7,21 @@ module.exports = Marionette.Module.extend({
     _started: false,
 
     initialize: function() {
-        console.log(this.current())
+        //console.log(this.current())
         this.listenTo(Backbone.history, 'route', this._onRoute);
     },
 
     onStart: function() {
+        console.log('start', this);
         this._started = !this._started;
     },
 
     onStop: function() {
+        console.log('stop', this);
         this._started = !this._started;
     },
 
     _onRoute: function(router) {
-
         if (this.router === router) {
             if (!this._started) this.start();
         } else {
