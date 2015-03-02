@@ -12,12 +12,12 @@ module.exports = Marionette.Module.extend({
     },
 
     onStart: function() {
-        console.log('start', this);
+        //console.log('start', this);
         this._started = !this._started;
     },
 
     onStop: function() {
-        console.log('stop', this);
+        //console.log('stop', this);
         this._started = !this._started;
     },
 

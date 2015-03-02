@@ -10,7 +10,7 @@ var plugins = function () {
   var all = [
     new webpack.DefinePlugin({
       PROD        :PRODUCTION,
-      JEU         :JSON.stringify('jeu1'),
+      JEU         :JSON.stringify('quiz'),
       THEME       :JSON.stringify('../templates/theme2/'),
       CLASSVIEW   :JSON.stringify('starter-template'),
       BOWER       :JSON.stringify(__dirname + '/bower_components/'),

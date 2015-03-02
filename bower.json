@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "~3.3.2",
-    "hello": "https://github.com/MrSwitch/hello.js.git#~1.4.3"
+    "hello": "https://github.com/MrSwitch/hello.js.git#~1.4.3",
+    "jquery.cookie": "~1.4.1"
   },
   "homepage": "https://github.com/RileyTomasek/backbone-browserify",
   "ignore": [
