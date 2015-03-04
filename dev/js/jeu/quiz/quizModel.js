@@ -1,18 +1,20 @@
 'use strict';
 
 //var BaseModel = require(SUPERCLASS + 'BaseModel');
-var config 		= require('./config'),
+var config 		= require('./config.json'),
 	Prop 		= Backbone.Model.extend({}),
 	Question 	= Backbone.Model.extend({
 		props:new Backbone.Collection,
 		titre:null,
 
 		initialize:function(q){
-			var self = this;
+			var self 	= this,
+				i 		= 0;
+
 			_.map(q.props, function(p){
+				p.id = ++i;
 				self.props.add(new Prop(p));
 			});
-			this.titre = q.t;
 		}
 	});
 
@@ -23,8 +25,11 @@ module.exports = Backbone.Collection.extend({
 	initialize:function(){
 		this.type = config.type;
 
-		var self = this;
-		_.map(config.questions, function(q){ 
+		var self 	= this,
+			i 		= 0;
+
+		_.map(config.questions, function(q){
+			q.id = ++i;
 			self.add(new Question(q));
 		})
 

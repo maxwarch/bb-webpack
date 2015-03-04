@@ -1,14 +1,17 @@
 'use strict';
 
-var jeuModel = new (require('../quizModel'));
+var jeuModel 		= new (require('../quizModel')),
+	questionView 	= require('./questionView');
 
-module.exports = Marionette.ItemView.extend({
+module.exports = Marionette.LayoutView.extend({
 	initialize:function(){
 
 	},
 
 	className:'' + CLASSVIEW + '', 
-	model:jeuModel,
+	regions:{
+		quizRegion:'#quiz'
+	},
 
 	events:{
 		
@@ -21,6 +24,6 @@ module.exports = Marionette.ItemView.extend({
     template: _.template(require('../templates/jeu.html')),
 
     onRender:function(){
-    	
+    	this.quizRegion.show(new questionView({collection:jeuModel}));
     }
 });

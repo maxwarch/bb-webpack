@@ -59,7 +59,7 @@ gulp.task('bs-reload', function () {
 // WATCH //
 ///////////
 gulp.task('watch', ['clean-scripts', 'webpack', 'browser-sync'], function() {
-    gulp.watch(['./dev/js/**/*.js', './dev/js/**/*.html'], ['clean-scripts', 'webpack', browserSync.reload]);
+    gulp.watch(['./dev/js/**/*.js', './dev/js/**/*.html', './dev/js/**/*.json', './dev/js/**/*.html'], ['clean-scripts', 'webpack', browserSync.reload]);
     gulp.watch(['./dev/css/bootstrap/less/**/*.less', './dev/css/*.css'], ['webpack', browserSync.reload]);
     gulp.watch("./*.html", ['bs-reload']);
 });

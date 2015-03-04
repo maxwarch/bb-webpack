@@ -1,0 +1,6 @@
+<p><%= t %></p>
+<ul>
+<% for(var i in props){ %>
+	<li><input type="radio" data-propid="<%= props[i].id %>" name="<%= id %>"> <%= props[i].t %></li>
+<% } %>
+</ul><br>

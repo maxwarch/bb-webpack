@@ -67,7 +67,10 @@ var plugins = function () {
      	{
 	       test: /\.html$/, 
 	       loader: "html-loader"
-	     }, {
+	     },{
+         test: /\.json$/, 
+         loader: "json-loader"
+       },{
 	       test: /\.css$/,
 	       loader: ExtractTextPlugin.extract('style-loader', 'css-loader?sourceMap&minimize')
 	     },{
