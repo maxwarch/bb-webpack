@@ -2,6 +2,7 @@
 
 module.exports = Marionette.AppRouter.extend({
     appRoutes: {
-        'inscription': 'inscription'
+        'inscription': 'inscription',
+        'inscription/merci': 'merci'
     }
 });

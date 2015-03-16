@@ -2,6 +2,10 @@
 
 module.exports = BaseModule.extend({
 
+    onStart:function(data){
+        
+    },
+
     initialize: function() {
     	if(!Me.id) 
     		_.defer(function(){
@@ -11,7 +15,5 @@ module.exports = BaseModule.extend({
         this.controller = new (require('./' + JEU + '/jeuCtrl'));
         this.router 	= new (require('./' + JEU + '/jeuRte'))({ controller: this.controller });
         BaseModule.prototype.initialize.apply(this, arguments);
-
-        this.controller.jeu();
     },
 });

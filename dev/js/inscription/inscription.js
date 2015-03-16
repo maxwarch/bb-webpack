@@ -7,6 +7,6 @@ module.exports = BaseModule.extend({
         this.router 	= new (require('./inscriptionRte'))({ controller: this.controller });
         BaseModule.prototype.initialize.apply(this, arguments);
 
-        this.controller.inscription();
+        //this.controller.inscription();
     }
 });

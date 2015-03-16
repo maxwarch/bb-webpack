@@ -6,14 +6,23 @@ module.exports = Marionette.Module.extend({
 
     _started: false,
 
-    initialize: function() {
-        //console.log(this.current())
+    initialize: function() { 
         this.listenTo(Backbone.history, 'route', this._onRoute);
+        var self = this;
+        _.defer(function(){
+            if(_.isFunction(self.controller[self.current().route])){
+                self.controller[self.current().route].apply(self, arguments);
+            }else{
+                self.controller.defaut();
+
+            }
+        })
     },
 
     onStart: function() {
         //console.log('start', this);
         this._started = !this._started;
+        
     },
 
     onStop: function() {
@@ -30,13 +39,16 @@ module.exports = Marionette.Module.extend({
     },
 
     navigate:function(uri, trigger, replace){
-        this.router.navigate(uri, {trigger:trigger || true, replace:replace || false});
+        var self = this;
+        _.defer(function(){
+            self.router.navigate(uri, {trigger:trigger || true, replace:replace || false});
+        })
     },
 
     current : function() {
         var Router = this.router,
             fragment = Backbone.history.fragment,
-            routes = _.pairs(Router.routes),
+            routes = _.pairs(Router.appRoutes),
             route = null, params = null, matched;
 
         matched = _.find(routes, function(handler) {

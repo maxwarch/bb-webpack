@@ -7,14 +7,14 @@ module.exports = Marionette.Controller.extend({
     accueil: function() {
         app.contentRegion.show(new (require('./views/accueilView')))
     },
-    goInscription:function(id){
+    loadInscription:function(id){
     	require.ensure([], function(){
-    		app.module('inscription', require(JS + 'inscription/inscription')).start();
+    		app.startSubApp('inscription', require(JS + 'inscription/inscription'));
     	}, 'inscription');
     },
-    goJeu:function(id){
+    loadJeu:function(id){
     	require.ensure([], function(){
-    		app.module('jeu', require(JS + 'jeu/jeu')).start();
+    		app.startSubApp('jeu', require(JS + 'jeu/jeu'));
     	}, 'jeu');
     }
 });

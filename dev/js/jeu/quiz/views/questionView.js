@@ -1,6 +1,7 @@
 'use strict';
 
-var questionTpl = require('../templates/question.html');
+var questionTpl = require('../templates/question.html'),
+	_config		= require('../config.json');
 
 var Question = Marionette.ItemView.extend({
 	tagName:'li',
@@ -11,26 +12,32 @@ var Question = Marionette.ItemView.extend({
 	},
 
 	clickReponse:function(e){
-		this.model.set('reponse', $(e.currentTarget).attr('data-propid'));
+		this.model.set('ruser', $(e.currentTarget).attr('data-propid'));
 	}
 });
 
 module.exports = Marionette.CollectionView.extend({
-	initialize:function(){
+	_question : null,
 
+	initialize:function(q){
+		this._question = q.question || null;
 	},
 
 	className:'question',
 	tagName:'ul',
 	childView:Question,
 
-	childEvents:{
-		'reponse':function(data){
-			console.log(this.collection.toJSON())
-		}
-	},
-
     template: _.template(require('../templates/jeu.html')),
+
+    addChild:function(child, ChildView, index)
+    {
+        if(_config.method == 'page' && child.id == this._question) 
+        {
+            Marionette.CollectionView.prototype.addChild.apply(this, arguments);
+        }else{
+        	if(_.isNull(this._question)) Marionette.CollectionView.prototype.addChild.apply(this, arguments);
+        }
+    },
 
     onRender:function(){
     	

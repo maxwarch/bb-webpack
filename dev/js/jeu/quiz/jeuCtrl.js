@@ -4,11 +4,17 @@ module.exports = Marionette.Controller.extend({
     initialize: function(opts) {
         
     },
-    jeu: function(id) {
+
+    defaut:function(){
+    	this.jeu();
+    	app.module('jeu').navigate('jeu', false, true)
+    },
+
+    jeu: function() {
         app.contentRegion.show(new (require('./views/jeuView')))
     },
 
-    merci:function(id) {
+    merci:function() {
         app.contentRegion.show(new (require('./views/merciView')))
     },
 });
