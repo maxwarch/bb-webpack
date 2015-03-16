@@ -3,7 +3,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var CommonsChunkPlugin = require("./node_modules/webpack/lib/optimize/CommonsChunkPlugin");
 var path = require('path');
 
-var PRODUCTION = false;
+var PRODUCTION = true;
 
 
 var plugins = function () {
@@ -11,7 +11,7 @@ var plugins = function () {
     new webpack.DefinePlugin({
       PROD        :PRODUCTION,
       JEU         :JSON.stringify('quiz'),
-      THEME       :JSON.stringify('../templates/theme2/'),
+      THEME       :JSON.stringify('../templates/theme1/'),
       CLASSVIEW   :JSON.stringify('starter-template'),
       BOWER       :JSON.stringify(__dirname + '/bower_components/'),
       CSS         :JSON.stringify(__dirname + '/dev/css/'),

@@ -30,11 +30,9 @@ window.app = new Marionette.Application({
 
     startSubApp:function(appName, args){
 		var currentApp = this.module(appName, args);
-		if (this.currentApp === currentApp){ return; }
+		if (this.currentApp === currentApp) return;
 
-		if (this.currentApp){
-			this.currentApp.stop();
-		}
+		if (this.currentApp) this.currentApp.stop();
 
 		this.currentApp = currentApp;
 

@@ -5,7 +5,7 @@ module.exports = Marionette.ItemView.extend({
 	},
 
 	className:'' + CLASSVIEW + '',
-	tagName:'div id="_module_"',
+	tagName:'div id="partage"',
 
 	model:null,
 
@@ -17,7 +17,7 @@ module.exports = Marionette.ItemView.extend({
 		
 	},
 
-    template: _.template(require(THEME + '_module_.html')),
+    template: _.template(require(THEME + 'partage.html')),
 
     onRender:function(){
 

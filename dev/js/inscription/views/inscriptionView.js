@@ -19,7 +19,7 @@ module.exports = Marionette.ItemView.extend({
 		form:'#form-inscription'
 	},
 
-    template: _.template(require('../templates/inscription.html')),
+    template: _.template(require(THEME + 'inscription.html')),
 
     clickValid:function(e){
     	e.preventDefault();

@@ -16,7 +16,7 @@ module.exports = Marionette.ItemView.extend({
 		
 	},
 
-    template: _.template(require('../templates/merci.html')),
+    template: _.template(require(THEME + 'merci.html')),
 
     onRender:function(){
     	

@@ -2,17 +2,16 @@
 
 var jeuModel 		= new (require('../quizModel')),
 	questionView 	= require('./questionView'),
-	_config			= require('../config.json'),
-	_module			= app.module('jeu');
+	_config			= require('../config.json');
 
 module.exports = Marionette.LayoutView.extend({
 	_question:null,
 
 	initialize:function(id){
-		this._question = _module.current().params[0] || null;
+		this._question = app.currentApp.current().params[0] || null;
 
-		if($.cookie(config.prefix + 'quiz')) _module.navigate('jeu/merci');
-		if(!this._question && _config.method == 'page') _module.navigate('jeu/question/1');
+		if($.cookie(config.prefix + 'quiz')) app.currentApp.navigate('jeu/merci');
+		if(!this._question && _config.method == 'page') app.currentApp.navigate('jeu/question/1');
 	},
 
 	className:'' + CLASSVIEW + '', 
@@ -28,7 +27,7 @@ module.exports = Marionette.LayoutView.extend({
 		'click @ui.btvalid':'validate'
 	},
 
-    template: _.template(require('../templates/jeu.html')),
+    template: _.template(require(THEME + 'jeu.html')),
 
     validate:function(e){
     	$('.error').addClass('hide');
@@ -45,7 +44,7 @@ module.exports = Marionette.LayoutView.extend({
     	}else{
     		if(this._question && this._question < jeuModel.length){
     			this._question++;
-    			_module.navigate('jeu/question/' + this._question);
+    			app.currentApp.navigate('jeu/question/' + this._question);
     		}else{
     			this.resultat();
     		}
@@ -54,7 +53,7 @@ module.exports = Marionette.LayoutView.extend({
 
     resultat:function(){
     	jeuModel.save();
-    	_module.navigate('jeu/merci');
+    	app.currentApp.navigate('jeu/merci');
     },
 
     onRender:function(){

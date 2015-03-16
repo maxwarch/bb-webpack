@@ -1,11 +1,10 @@
 'use strict';
 
-var questionTpl = require('../templates/question.html'),
-	_config		= require('../config.json');
+var _config		= require('../config.json');
 
 var Question = Marionette.ItemView.extend({
 	tagName:'li',
-	template:_.template(questionTpl),
+	template:_.template(require(THEME + 'question.html')),
 
 	events:{
 		'click [type="radio"]':'clickReponse'
@@ -27,7 +26,7 @@ module.exports = Marionette.CollectionView.extend({
 	tagName:'ul',
 	childView:Question,
 
-    template: _.template(require('../templates/jeu.html')),
+    template: _.template(require(THEME + 'jeu.html')),
 
     addChild:function(child, ChildView, index)
     {

@@ -1,0 +1,8 @@
+<p><%= t %></p>
+<ul>
+<% for(var i in props){ %>
+	<li><input type="radio" data-propid="<%= props[i].id %>" name="<%= id %>"> <%= props[i].t %></li>
+<% } %>
+</ul><br>
+<small class="error hide err-<%= id %>">Vous devez sélectionner une réponse</small>
+<small class="error hide err-invalid-<%= id %>">La réponse n'est pas exacte</small>

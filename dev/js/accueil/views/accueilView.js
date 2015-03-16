@@ -14,5 +14,5 @@ module.exports = Marionette.ItemView.extend({
 		
 	},
 
-    template: _.template(require('../templates/accueil.html'))
+    template: _.template(require(THEME + 'accueil.html'))
 });

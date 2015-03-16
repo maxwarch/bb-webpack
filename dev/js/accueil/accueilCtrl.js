@@ -16,5 +16,10 @@ module.exports = Marionette.Controller.extend({
     	require.ensure([], function(){
     		app.startSubApp('jeu', require(JS + 'jeu/jeu'));
     	}, 'jeu');
+    },
+    loadPartage:function(id){
+        require.ensure([], function(){
+            app.startSubApp('partage', require(JS + 'partage/partage'));
+        }, 'partage');
     }
 });
