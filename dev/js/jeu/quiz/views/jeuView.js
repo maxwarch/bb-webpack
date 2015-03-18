@@ -16,7 +16,7 @@ module.exports = Marionette.LayoutView.extend({
 
 	className:'' + CLASSVIEW + '', 
 	regions:{
-		quizRegion:'#quiz'
+		quizRegion:'#jeu'
 	},
 
 	ui:{

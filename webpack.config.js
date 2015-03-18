@@ -3,7 +3,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var CommonsChunkPlugin = require("./node_modules/webpack/lib/optimize/CommonsChunkPlugin");
 var path = require('path');
 
-var PRODUCTION = true;
+var PRODUCTION = false;
 
 
 var plugins = function () {
@@ -12,7 +12,7 @@ var plugins = function () {
       PROD        :PRODUCTION,
       JEU         :JSON.stringify('quiz'),
       THEME       :JSON.stringify('../templates/theme1/'),
-      CLASSVIEW   :JSON.stringify('starter-template'),
+      CLASSVIEW   :JSON.stringify('page'),
       BOWER       :JSON.stringify(__dirname + '/bower_components/'),
       CSS         :JSON.stringify(__dirname + '/dev/css/'),
       JS          :JSON.stringify(__dirname + '/dev/js/'),
@@ -56,10 +56,14 @@ var plugins = function () {
    		'lodash':'_',
    		'backbone':'Backbone',
    		'backbone.marionette':'Marionette',
-      'jquery.cookie':'$.cookie'
+      'jquery.cookie':'$.cookie',
+      'hello':'hello'
    },
    resolve: {
-     alias: {}
+     alias: {
+        //'hello':__dirname + '/bower_components/hello/dist/hello.min.js'
+        'utils':__dirname + '/lib/utils.js'
+     }
    },
    module: {
      noParse: [],
