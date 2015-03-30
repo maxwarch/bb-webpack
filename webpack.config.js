@@ -56,12 +56,10 @@ var plugins = function () {
    		'lodash':'_',
    		'backbone':'Backbone',
    		'backbone.marionette':'Marionette',
-      'jquery.cookie':'$.cookie',
-      'hello':'hello'
+      'jquery.cookie':'$.cookie'
    },
    resolve: {
      alias: {
-        //'hello':__dirname + '/bower_components/hello/dist/hello.min.js'
         'utils':__dirname + '/lib/utils.js'
      }
    },

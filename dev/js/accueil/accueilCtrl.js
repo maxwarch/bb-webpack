@@ -1,11 +1,12 @@
 'use strict';
- 
+
 module.exports = Marionette.Controller.extend({
     initialize: function(opts) {
         
     },
     accueil: function() {
-        app.contentRegion.show(new (require('./views/accueilView')))
+        app.contentRegion.show(new (require('./views/accueilView')));
+
     },
     loadInscription:function(id){
     	require.ensure([], function(){
