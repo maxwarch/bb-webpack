@@ -34,7 +34,7 @@ var plugins = function () {
 
   var production = [
     new webpack.optimize.DedupePlugin(),
-    new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}}),
+    new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}, output: {comments: false}}),
     new webpack.NoErrorsPlugin()
   ];
 
