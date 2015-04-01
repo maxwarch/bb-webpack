@@ -1,5 +1,7 @@
 'use strict';
 
+window.Jeu = require(MODEL + 'jeu').getInstance();
+
 module.exports = BaseModule.extend({
 
     onStart:function(data){
@@ -12,8 +14,8 @@ module.exports = BaseModule.extend({
     				//app.module('accueil').navigate('inscription', {trigger:true})
     			});
 
-        this.controller = new (require('./' + JEU + '/jeuCtrl'));
-        this.router 	= new (require('./' + JEU + '/jeuRte'))({ controller: this.controller });
+        this.controller = new (require('./' + JEU + '/' + JEU + 'Ctrl'));
+        this.router 	= new (require('./' + JEU + '/' + JEU + 'Rte'))({ controller: this.controller });
         BaseModule.prototype.initialize.apply(this, arguments);
     },
 });

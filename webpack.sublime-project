@@ -2,10 +2,19 @@
 	"folders":
 	[
 		{
-			"path": "/Users/jpkuil/Sites/bb-webpack"
+			"path": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver"
 		},
 		{
-			"path": "/Users/jpkuil/Sites/restserver"
+			"path": "dev"
+		},
+		{
+			"path": "dist"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "templatesGulp"
 		}
 	]
 }

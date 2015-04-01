@@ -1,0 +1,23 @@
+{
+	"type":"dnd",
+	"tentatives":2,
+	"shuffle":false,
+	"elements":[
+		{
+			"drag":"/img/dnd/elt-1.png",
+			"drop":"/img/dnd/photo-1.jpg"
+		},
+		{
+			"drag":"/img/dnd/elt-2.png",
+			"drop":"/img/dnd/photo-2.jpg"
+		},
+		{
+			"drag":"/img/dnd/elt-3.png",
+			"drop":"/img/dnd/photo-3.jpg"
+		},
+		{
+			"drag":"/img/dnd/elt-4.png",
+			"drop":"/img/dnd/photo-4.jpg"
+		}
+	]
+}

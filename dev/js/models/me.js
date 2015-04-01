@@ -16,7 +16,7 @@ var Me = BaseModel.extend({
 		email	:(!PROD) ? 'mkuil@krealid.com' : ''
 	},
 
-	urlRoot:config.rest + 'inscrit'
+	urlRoot:config.rest + 'user'
 });
 
 _.extend(Me, Backbone.Singleton);

@@ -1,0 +1,39 @@
+<h1 class="grumpy">[[titre_jeu]]</h1>
+<h2>[[sous_titre_jeu]]</h2>
+<p class="para-jeu">[[phrase_jeu]]</p>
+<div class="global-gameplay">
+	<div class="dragndrop">
+		<div id="arrivee">
+			<% 
+				data = (shuffle) ? _.shuffle(data) : data;
+				_.each(data, function(item){ %>
+			<div class="elt-drop" data-pos="<%= item.id %>">
+				<img src="<%= item.drop %>" alt="" class="visu-desktop">
+				<div class="drop elt"></div>
+			</div>
+			<% }) %>
+		</div>
+		<div class="clearfix"></div>
+		<div id="depart">
+			<% 
+				data = (shuffle) ? _.shuffle(data) : data;
+				_.each(data, function(item){ %>
+			<div class="drag elt" data-rep="<%= item.id %>"><img src="<%= item.drag %>" alt=""></div>
+			<% }) %>
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+<small class="error valid hide">[[_err_elt]]</small>
+<small class="error rep hide">[[_err_reponse]]</small>
+<button id="valid" class="btn-participe">[[valide_jeu]]</button>
+
+<div id="lightbox-perdu" class="hide">
+	<div class="content-lightbox-perdu">
+		<h1>[[lb_perdu]]</h1>
+		<h2>[[lb_perdu_2]]</h2>
+		<p>[[lb_perdu_3]]</p>
+		<a href="#" id="essai" class="btn-participe">[[lb_reesayer]]</a>
+	</div>
+</div>

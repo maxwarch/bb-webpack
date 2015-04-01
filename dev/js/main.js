@@ -3,13 +3,7 @@
 window.config = require('./config');
 
 require('../css/bootstrap/less/bootstrap.less'); 
-require('../css/app.css'); 
-
-var $ 			= require('jquery'),
-	_ 			= require('lodash'),
-	Backbone 	= require('backbone'),
-	Marionette 	= require('backbone.marionette'),
-	cookie 		= require('jquery.cookie');
+require('../css/app.css');
 
 window.BaseModule 	= require('./_superclass/BaseModule');
 window.Me 			= require(MODEL + 'me').getInstance();

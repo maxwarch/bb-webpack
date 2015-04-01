@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"click",
+				"clickValid"
+			],
+			[
 				"margin",
 				"margin-left"
 			],
@@ -168,10 +172,58 @@
 	"buffers":
 	[
 		{
-			"file": "dev/js/app.js",
+			"file": "webpack.config.js",
 			"settings":
 			{
-				"buffer_size": 616,
+				"buffer_size": 2734,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1866,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/jeu/dnd/templates/theme1/dnd.html",
+			"settings":
+			{
+				"buffer_size": 1761,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/jeu/dnd/css/dnd.css",
+			"settings":
+			{
+				"buffer_size": 1394,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/jeu/dnd/views/dndView.js",
+			"settings":
+			{
+				"buffer_size": 2145,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/models/jeu.js",
+			"settings":
+			{
+				"buffer_size": 406,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/_superclass/BaseModel.js",
+			"settings":
+			{
+				"buffer_size": 3107,
 				"line_ending": "Windows"
 			}
 		}
@@ -179,9 +231,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 187.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -203,7 +259,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 512.0
 	},
 	"console":
 	{
@@ -220,6 +276,20 @@
 	},
 	"file_history":
 	[
+		"/G/application/views/galerie/index.php",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/jeu/jeu.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/lib/jq.plugin.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/index.html",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/jeu/dnd/dndCtrl.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/jeu/dnd/dndRte.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/css/_module_.css",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_Rte.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/templatesGulp/_module_/_module_Ctrl.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/package.json",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/node_modules/gulp-dogen/readme.md",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/js/app.js",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver/htdocs/.htaccess",
+		"/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/bb-webpack/dev/css/inscription.css",
 		"/Users/maximekuil/Documents/travail/_node/webpack/index.html",
 		"/Users/maximekuil/Documents/travail/_node/webpack/bower.json",
 		"/Users/maximekuil/Documents/travail/_node/restserver/application/controllers/api.php",
@@ -333,21 +403,7 @@
 		"/T/application/core/Public_Controller.php",
 		"/T/htdocs/angular/angular-phonecat/app/index.php",
 		"/C/Users/Maxime/AppData/Roaming/Sublime Text 2/Packages/AngularJS/AngularJS-completions.sublime-settings",
-		"/T/htdocs/angular/lib/angular/i18n/angular-locale_fr.js",
-		"/T/application/views/connexion/index.php",
-		"/T/application/views/mobile/layouts/header.php",
-		"/T/application/views/mobile/accueil/index.php",
-		"/T/application/views/layouts/application.php",
-		"/T/application/models/logconnect.php",
-		"/T/application/libraries/REST_Controller.php",
-		"/E/application/controllers/accueil.php",
-		"/T/application/views/layouts/mobile/header.php",
-		"/T/application/views/layouts/mobile/meta.php",
-		"/T/application/views/layouts/mobile/application.php",
-		"/T/application/views/layouts/mobile/footer.php",
-		"/T/application/controllers/planning.php",
-		"/T/application/views/planning/tableau.php",
-		"/T/application/views/planning/index.php"
+		"/T/htdocs/angular/lib/angular/i18n/angular-locale_fr.js"
 	],
 	"find":
 	{
@@ -365,6 +421,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dnd",
+			"jeu",
 			"theme",
 			"563832834067-futhjo3ttgd450cuqhbjovl1vs4u5j11.apps.googleusercontent.com",
 			"console",
@@ -407,6 +465,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"dnd",
 			"/fonts/bootstrap",
 			"pie",
 			"dataPie",
@@ -423,30 +482,196 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "dev/js/app.js",
+					"file": "webpack.config.js",
 					"settings":
 					{
-						"buffer_size": 616,
+						"buffer_size": 2734,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								252
+								236,
+								241
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 1866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1476,
+								1476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dev/js/jeu/dnd/templates/theme1/dnd.html",
+					"settings":
+					{
+						"buffer_size": 1761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/js/jeu/dnd/css/dnd.css",
+					"settings":
+					{
+						"buffer_size": 1394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44,
+								44
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/js/jeu/dnd/views/dndView.js",
+					"settings":
+					{
+						"buffer_size": 2145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								702,
+								702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/js/models/jeu.js",
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/js/_superclass/BaseModel.js",
+					"settings":
+					{
+						"buffer_size": 3107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

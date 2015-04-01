@@ -10,7 +10,7 @@ var plugins = function () {
   var all = [
     new webpack.DefinePlugin({
       PROD        :PRODUCTION,
-      JEU         :JSON.stringify('quiz'),
+      JEU         :JSON.stringify('dnd'),
       THEME       :JSON.stringify('../templates/theme1/'),
       CLASSVIEW   :JSON.stringify('page'),
       BOWER       :JSON.stringify(__dirname + '/bower_components/'),
@@ -21,10 +21,15 @@ var plugins = function () {
       SUPERCLASS  :JSON.stringify(__dirname + '/dev/js/_superclass/'),
       LIB         :JSON.stringify(__dirname + '/lib/')
     }),
-    new webpack.optimize.CommonsChunkPlugin('main', null, false),
-    new ExtractTextPlugin("[name].css", {allChunks: false})
-    
-    //new CommonsChunkPlugin("config.js", ["app"]),
+    new ExtractTextPlugin("[name].css", {allChunks: true}),
+    new CommonsChunkPlugin({name:"commons", filename:"commons.js", children:true, async:true}),
+    new webpack.ProvidePlugin({
+      '$':'jquery',
+      '_':'lodash',
+      'Backbone':'backbone',
+      'Marionette': 'backbone.marionette',
+      '$.cookie':'jquery.cookie'
+    })
   ];
 
   var production = [

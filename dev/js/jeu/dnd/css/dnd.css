@@ -1,0 +1,34 @@
+#cboxLoadedContent{background:#f7aa00;}
+#dnd .ui-droppable{width:317px;height:67px;margin:0 19px; float:left}
+#dnd .elt-drop .ui-droppable{margin:0;}
+#dnd .ui-draggable{width:317px;height:67px; float:left}
+
+#dnd #depart .ui-draggable,
+#dnd #depart .ui-droppable{margin-top:30px;}
+
+#dnd #arrivee .ui-draggable,
+#dnd #arrivee .ui-droppable{margin-top:5px;}
+/**/
+#dnd .logo-desktop{margin-bottom:40px;}
+#dnd h1{font-size:56px;text-transform:uppercase;padding-bottom:15px;font-weight:900;}
+#dnd h2{font-size:22px;text-transform:uppercase;padding-bottom:30px;}
+/**/
+#dnd .elt-drop{width:317px;margin:0 19px; float:left}
+#dnd .drop{background:transparent url(/img/fr/web/bg-elt.png) 0 0 no-repeat;}
+	#dnd #depart .drop{background:transparent url(/img/fr/web/bg-elt-depart.png) 0 0 no-repeat;}
+
+
+#dnd #depart{}
+#dnd #arrivee{}
+#dnd .global-gameplay{margin:0 auto;width:100%;max-width:1420px;}
+#dnd .block-photos img{float:left;margin:0 19px;}
+/**/
+#dnd .btn-participe{margin-top:30px;}
+#dnd .para-dnd{color:#000;padding-bottom:35px;font-weight:700;}
+#dnd .para-dnd a{color:#000;}
+/**/
+#dnd .elt{/*background:#FFFFFF url(/img/fr/web/bg-elt.png) 0 0 repeat-x;*/width:317px;height:67px;/*line-height:67px;font-size:16px;text-transform:uppercase;color:#000;font-family: 'soin_sans_promedium';text-align:center;*/}
+/**/
+#dnd .dragndrop{display:block}
+#dnd .error{color:red;}
+#dnd .separation{display:none;}
