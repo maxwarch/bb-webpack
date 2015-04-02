@@ -18,15 +18,17 @@
 			<% 
 				data = (shuffle) ? _.shuffle(data) : data;
 				_.each(data, function(item){ %>
-			<div class="drag elt" data-rep="<%= item.id %>"><img src="<%= item.drag %>" alt=""></div>
+			<div class="drag elt"><img src="<%= item.drag %>" alt=""></div>
 			<% }) %>
 		</div>
 	</div>
 </div>
 
 <div class="clearfix"></div>
-<small class="error valid hide">[[_err_elt]]</small>
-<small class="error rep hide">[[_err_reponse]]</small>
+<small class="error hide valid">[[_err_elt]]</small>
+<small class="error hide rep"></small>
+<small class="error hide incomplet">Veuillez compléter</small>
+<small class="error hide tentative">Le nombre de tentatives est dépassé</small>
 <button id="valid" class="btn-participe">[[valide_jeu]]</button>
 
 <div id="lightbox-perdu" class="hide">

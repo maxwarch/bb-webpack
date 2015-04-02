@@ -1,7 +1,7 @@
 {
 	"type":"dnd",
-	"tentatives":2,
-	"shuffle":true,
+	"essais":2,
+	"shuffle":false,
 	"elements":[
 		{
 			"drag":"/img/dnd/elt-1.png",

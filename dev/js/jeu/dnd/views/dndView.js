@@ -12,7 +12,6 @@ var _config		= require('../config.json'),
 	dndModel 	= new (require('../dndModel'));
 
 module.exports = Marionette.ItemView.extend({
-	_playing:0,
 	initialize:function(){
 	},
 
@@ -57,25 +56,25 @@ module.exports = Marionette.ItemView.extend({
     		}
     	});*/
 
-		$('.valid, .rep').hide(); 
-		var valid = true,
-			rep = true,
-			p = null;
+		$('.error').addClass('hide'); 
+		var result = dndModel.validate();
+		console.log(result)
 		
-		
-		$.each($('.drag'), function(){
-			p = $(this).parent('.elt-drop').attr('data-pos');
-			if($(this).parent().parent().attr('id') != 'arrivee'){
-				valid = false;
-				return;
-			} 
-			if(p != $(this).attr('data-rep')) rep = false;
-		});
-		
-		if(!valid){
-			$('.valid').css({'display':'block'});
+		if(result == -2){
+			$('.incomplet').removeClass('hide');
+			return;
+		}
+
+		if(result == -1){
+			$('.tentative').removeClass('hide');
+			return;
+		}
+
+		if(result === false){
+			$('.rep').html('Plus que ' + dndModel.essais + ' essais');
+			$('.rep').removeClass('hide');
 		}else{
-			this.playing += 1;
+
 			if(!rep){
 				$.post('/jeu/setplaying', {valid:playing}, function(data){
 					if(data < 2)
@@ -95,6 +94,18 @@ module.exports = Marionette.ItemView.extend({
 		}
     },
 
+    saveResult:function(){
+    	dndModel.save(null, {
+    		success:function(model, data){
+    			console.log('ok', model, data)
+    		},
+
+    		error:function(model, data){
+    			console.log('erreur', data)
+    		}
+    	});
+    },
+
     makeElementAsDragAndDrop:function(elem) {
     	var self = this;
 		if($(elem).hasClass('drag'))
@@ -109,6 +120,18 @@ module.exports = Marionette.ItemView.extend({
 		$(elem).droppable({
 			accept:'.drag',
 			drop: function(event, ui) {
+				_.defer(function(){
+					dndModel.each(function(item){
+						item.set('droprep', null);
+					});
+
+					$.each($('.elt-drop'), function(){
+						var elt = $(this).find('.drag');
+						if(elt.length)
+							dndModel.findWhere({id:parseInt($(this).attr('data-pos'))}).set('droprep', elt.find('img').attr('src'));
+					});
+				});
+
 				var $dragElem = $(ui.draggable).clone().replaceAll(this);
 				$(this).replaceAll(ui.draggable);
 				self.makeElementAsDragAndDrop(this);
