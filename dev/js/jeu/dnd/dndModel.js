@@ -1,64 +1,95 @@
 'use strict';
 
+var JeuModel 	= require(SUPERCLASS + 'JeuModel'),
+	HybridModel = require(SUPERCLASS + 'HybridModel');
+
 var _config 	= require('./config.json'),
+ 
 	Element 	= Backbone.Model.extend({
 		validate:function(){
-			return this.get('drag') == this.get('droprep');
+			if(this.get('drag') == this.get('droprep')){
+				this.set({rep:true});
+			}else{
+				this.set({rep:false});
+			}
+
+			return this.get('rep');
+		} 
+	}),
+
+	Elements 	= Backbone.Collection.extend({
+		initialize:function(attr, data){
+			var self 	= this,
+				i 		= 0;
+
+			data = data || _config.elements;
+
+			_.map(data, function(q){
+				q.id = ++i;
+				q.droprep = null;
+				q.rep = false;
+				self.add(new Element(q));
+			});
+		}		
+	}),
+
+	Data 		= HybridModel.extend({
+		initialize:function(attr, options){
+			if(!_.isNull(options.cookie)){
+				this.set({essais:options.cookie.data.essais});
+				this.set({elements:new Elements(options.cookie.data.elements)});
+			}else{
+				this.set({essais:_config.essais});
+				this.set({elements: new Elements()}); 
+			}
+		},
+
+		validate:function(){
+			var result = true,
+				isNull = false,
+				elements = this.get('elements'),
+				essais = parseInt(this.get('essais'));
+
+			elements.each(function(item){
+				var it = item.get('droprep');
+				if(_.isNull(it)) isNull = true;
+			})
+
+			if(isNull) return -2;	// incomplet
+
+			elements.each(function(item){ 
+				if(!item.validate()) result = false;
+			});
+			this.set({essais: essais - 1});
+
+			return (essais > 0) ? result : -1; // essais dépassé
 		}
-	});
+	})
 
 
-module.exports = Backbone.Collection.extend({
-	essais:_config.essais,
-	type:null,
+module.exports = JeuModel.extend({
+	elements:null,
 
 	initialize:function(){
-		var c = this.getCookie()
-		this.essais = (c) ? c : this.essais;
-		this.type = _config.type;
-
-		var self 	= this,
-			i 		= 0;
-
-		_.map(_config.elements, function(q){
-			q.id = ++i;
-			q.droprep = null;
-			self.add(new Element(q));
-		});
+		this.data = new Data(null, {cookie:this.getCookie()});
+		this.set({data: this.data});
+		this.elements = this.data.get('elements');
+		console.log(this.toJSON());
 	},
 
 	validate:function(){
-		var result = true,
-			isNull = false;
+		var result = this.data.validate();
+		this.setCookie();
+		return result;
+	},
 
-		this.each(function(item){
-			var it = item.get('droprep');
-			if(_.isNull(it)) isNull = true;
-		})
-
-		if(isNull) return -2;	// incomplet
-
-		this.each(function(item){
-			if(!item.validate()) result = false;
-		});
-
-		this.essais -= 1;
-		this.saveCookie();
-
-		return (this.essais > 0) ? result : -1 /* essais dépassé */;
+	essais:function(){
+		return this.data.get('essais');
 	},
 
 	save:function(){
-		this.saveCookie()
+		this.setCookie(this.toJSON())
 
 		return true;
-	},
-
-	saveCookie:function(){
-		$.cookie(config.prefix + 'dnd', this.essais);
-	},
-
-	getCookie:function(){
-		return ($.cookie(config.prefix + 'dnd')) ? $.cookie(config.prefix + 'dnd') : null;
 	}
 });

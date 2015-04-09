@@ -2,9 +2,6 @@
 	"folders":
 	[
 		{
-			"path": "/C/Users/Maxime/Documents/Flash/projet/_TEST_NODE_N_CO/restserver"
-		},
-		{
 			"path": "dev"
 		},
 		{
@@ -15,6 +12,12 @@
 		},
 		{
 			"path": "templatesGulp"
+		},
+		{
+			"path": "/Users/maximekuil/Documents/travail/_node/restserver"
+		},
+		{
+			"path": "lib"
 		}
 	]
 }

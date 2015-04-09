@@ -32,7 +32,7 @@ module.exports = Marionette.ItemView.extend({
     template: _.template(require(THEME + 'dnd.html')),
 
     templateHelpers:{
-    	data:dndModel.toJSON(),
+    	data:dndModel.elements.toJSON(),
     	shuffle:_config.shuffle
     },
 
@@ -46,35 +46,24 @@ module.exports = Marionette.ItemView.extend({
     clickValid:function(e){
     	e.preventDefault();
 
-    	/*Jeu.save(null, {
-    		success:function(model, data){
-    			console.log('ok', model, data)
-    		},
-
-    		error:function(model, data){
-    			console.log('erreur', data)
-    		}
-    	});*/
-
 		$('.error').addClass('hide'); 
 		var result = dndModel.validate();
-		console.log(result)
 		
 		if(result == -2){
-			$('.incomplet').removeClass('hide');
+			$('.incomplet').show(); 
 			return;
 		}
 
 		if(result == -1){
-			$('.tentative').removeClass('hide');
+			$('.tentative').show();
 			return;
 		}
 
 		if(result === false){
-			$('.rep').html('Plus que ' + dndModel.essais + ' essais');
-			$('.rep').removeClass('hide');
+			$('.rep').html('Plus que ' + dndModel.data.get('essais') + ' essais');
+			$('.rep').show();
 		}else{
-
+			dndModel.set({played:true});
 			if(!rep){
 				$.post('/jeu/setplaying', {valid:playing}, function(data){
 					if(data < 2)
@@ -121,14 +110,14 @@ module.exports = Marionette.ItemView.extend({
 			accept:'.drag',
 			drop: function(event, ui) {
 				_.defer(function(){
-					dndModel.each(function(item){
+					dndModel.elements.each(function(item){
 						item.set('droprep', null);
 					});
 
 					$.each($('.elt-drop'), function(){
 						var elt = $(this).find('.drag');
 						if(elt.length)
-							dndModel.findWhere({id:parseInt($(this).attr('data-pos'))}).set('droprep', elt.find('img').attr('src'));
+							dndModel.elements.findWhere({id:parseInt($(this).attr('data-pos'))}).set('droprep', elt.find('img').attr('src'));
 					});
 				});
 

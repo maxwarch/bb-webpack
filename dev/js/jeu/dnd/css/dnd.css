@@ -14,7 +14,7 @@
 #dnd h2{font-size:22px;text-transform:uppercase;padding-bottom:30px;}
 /**/
 #dnd .elt-drop{width:317px;margin:0 19px; float:left}
-#dnd .drop{background:transparent url(/img/fr/web/bg-elt.png) 0 0 no-repeat;}
+#dnd .drop{}
 	#dnd #depart .drop{background:transparent url(/img/fr/web/bg-elt-depart.png) 0 0 no-repeat;}
 
 

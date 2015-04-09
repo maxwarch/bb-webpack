@@ -1,6 +1,6 @@
 'use strict';
 
-window.Jeu = require(MODEL + 'jeu').getInstance();
+//window.Jeu = require(MODEL + 'jeu').getInstance();
 
 module.exports = BaseModule.extend({
 
