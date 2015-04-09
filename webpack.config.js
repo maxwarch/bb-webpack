@@ -3,7 +3,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var CommonsChunkPlugin = require("./node_modules/webpack/lib/optimize/CommonsChunkPlugin");
 var path = require('path');
 
-var PRODUCTION = false;
+var PRODUCTION = false; 
 
 
 var plugins = function () {
